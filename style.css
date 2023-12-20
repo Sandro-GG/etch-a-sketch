@@ -1,0 +1,10 @@
+div .square {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  border: 1px solid black;
+}
