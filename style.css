@@ -1,10 +1,26 @@
-div .square {
-  box-sizing: border-box;
-}
-
-.container {
+.grid {
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   width: 600px;
   border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button {
+  font-size: 30px;
+  margin-left: 700px;
+  margin-right: 700px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
